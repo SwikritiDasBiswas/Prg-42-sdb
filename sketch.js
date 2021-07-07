@@ -32,12 +32,12 @@ function draw() {
   }
     
   if(keyDown("LEFT_ARROW")){
-      spacecraft.addImage(scimg3);
+      spacecraft.addImage(scimg2);
     spacecraft.x = spacecraft.x - 1;
   }
     
   if(keyDown("RIGHT_ARROW")){
-      spacecraft.addImage(scimg2);
+      spacecraft.addImage(scimg3);
     spacecraft.x = spacecraft.x + 1;
   }
     
